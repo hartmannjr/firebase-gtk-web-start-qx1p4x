@@ -5,5 +5,14 @@
   "dependencies": {
     "firebase": "^9.6.11",
     "firebaseui": "^6.0.1"
-  }
+  },
+  "description": "[Edit in Codeflow ⚡️](https://stackblitz.com/~/github.com/hartmannjr/firebase-gtk-web-start-qx1p4x)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jacob Hartmann",
+  "license": "ISC",
+  "devDependencies": {}
 }
