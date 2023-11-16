@@ -56,5 +56,11 @@ async function main() {
   };
 
   const ui = new firebaseui.auth.AuthUI(auth);
+
+  // listen to RSVP button clicks
+  startRsvpButton.addEventListener("click",
+  () => {
+    ui.start("#firebaseui-auth-container", uiConfig);
+  });
 }
 main();
